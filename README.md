@@ -95,7 +95,7 @@ npm start
 # Build and run all services
 docker-compose up --build
 
-# Access the application at http://localhost:3001
+# Access the application at http://localhost:3000
 ```
 
 ## API Endpoints
@@ -129,7 +129,7 @@ DB_PASSWORD=your-password
 DB_HOST=localhost
 DB_PORT=5432
 ALLOWED_HOSTS=localhost,127.0.0.1
-CORS_ALLOWED_ORIGINS=http://localhost:3001
+CORS_ALLOWED_ORIGINS=http://localhost:3000
 ```
 
 ### Frontend (.env)

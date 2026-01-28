@@ -123,7 +123,7 @@ DB_PASSWORD=your-password
 DB_HOST=localhost
 DB_PORT=5432
 ALLOWED_HOSTS=localhost,127.0.0.1
-CORS_ALLOWED_ORIGINS=http://localhost:3001
+CORS_ALLOWED_ORIGINS=http://localhost:3000
 ```
 
 3. Run migrations:
