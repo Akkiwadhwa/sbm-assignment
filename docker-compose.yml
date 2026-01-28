@@ -23,7 +23,6 @@ services:
       - DB_PASSWORD=postgres
       - DB_HOST=db
       - DB_PORT=5432
-      - ALLOWED_HOSTS=localhost,127.0.0.1,backend
       - ALLOWED_HOSTS=localhost,127.0.0.1,backend,104.225.216.207
       - CORS_ALLOWED_ORIGINS=http://104.225.216.207,http://localhost:3000
     depends_on:
