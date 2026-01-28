@@ -24,7 +24,8 @@ services:
       - DB_HOST=db
       - DB_PORT=5432
       - ALLOWED_HOSTS=localhost,127.0.0.1,backend
-      - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+      - ALLOWED_HOSTS=localhost,127.0.0.1,backend,104.225.216.207
+      - CORS_ALLOWED_ORIGINS=http://104.225.216.207,http://localhost:3000
     depends_on:
       - db
     command: >
@@ -37,7 +38,7 @@ services:
     ports:
       - "3000:80"
     environment:
-      - REACT_APP_API_URL=http://localhost:8000/api
+      - REACT_APP_API_URL=http://104.225.216.207/api
     depends_on:
       - backend
 
